@@ -1,0 +1,111 @@
+@import url(../css/reset.css);
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#464646, #2b2b2b) fixed;
+  color: #fff;
+  font-size: 16px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+/*初期画面/クリア画面*/
+.start-container,
+.clear-container {
+  justify-content: center;
+  margin: 200px auto;
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.start-wrap__display,
+.clear-wrap__display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 5em;
+  border-radius: 3px;
+  background: #536f95;
+  border-radius: 5px;
+  border-color: #f6f6f6;
+  border: double 5px;
+  padding-bottom: 20px;
+}
+
+/*戦闘画面*/
+.monster-wrap {
+  width: 100%;
+  height: 60%;
+  padding: 50px 0;
+}
+.monster-wrap__display {
+  justify-content: center;
+  margin: auto;
+  width: 400px;
+  height: 300px;
+  box-sizing: border-box;
+}
+.monster-wrap__display--img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
+.monster-wrap__display--status {
+  border-radius: 3px;
+  background: #536f95;
+  border-radius: 5px;
+  border-color: #f6f6f6;
+  border: double 5px;
+  text-align: center;
+  margin: -10px 85px;
+  padding: 5px;
+}
+
+.status-wrap__inner {
+  height: 40%;
+  height: 100%;
+  align-items: stretch;
+  display: flex;
+  padding: 10px;
+}
+
+.status-wrap__display {
+  height: 90%;
+  box-sizing: border-box;
+  margin: 15px;
+  border-radius: 3px;
+  background: #536f95;
+  border-radius: 5px;
+  border-color: #f6f6f6;
+  border: double 5px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.status-wrap__display--action {
+  align-content: space-around;
+}
+input[type="submit"] {
+  border: none;
+  background: #536f95;
+  display: block;
+  color: #fff;
+  line-height: 1.5em;
+}
+input[type="submit"]:hover {
+  background: #f6f6f6;
+  cursor: pointer;
+  color: #536f95;
+}
+.status-wrap__display--info {
+  line-height: 1.5em;
+}
+/*jquery*/
+.textSplitLoad {
+  display: none;
+}
+.status-wrap__display--split {
+  visibility: hidden;
+  line-height: 1.5em;
+}
