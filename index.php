@@ -248,20 +248,20 @@ class History implements HistoryInterface
 //プレイヤー:$name, $hp, $mp, $voice, $attackVoice, $damageVoice,$attackMin, $attackMax
 $humans[] = new Human('スコール', 3000, 600, 'スコール▷▷逃がすか!!', 'スコール▷▷読みちがえたな...', 600, 900);
 $humans[] = new Human('クラウド', 3000, 700, 'クラウド▷▷行くぜ！！', 'クラウド▷▷真っ白だ...', 400, 700);
-$humans[] = new Human('ライトニング', 3000, 800, 'ライトニング▷▷前だけ見てろ！背中は守る！', 'ライトニング▷▷終わらない...まだ...！', 500, 800);
+$humans[] = new Human('ライトニング', 3000, 800, 'ライトニング▷▷前だけ見てろ！背中は守る！', 'ライトニング▷▷チッ、油断した...！', 500, 800);
 //var_dump($humans);
 
 //モンスター:$name, $hp, $img, $attackMin, $attackMax(,$magicAttack)
 $monsters[] = new Monster('ダークナイト', 2000, 'img/monsters/darknight.png', 200, 400);
-$monsters[] = new Monster('デーモン', 2500, 'img/monsters/darkdemon.png', 300, 450);
-$monsters[] = new Monster('リビングソード', 3000, 'img/monsters/ribingsode.png', 300, 500);
-$monsters[] = new Monster('ドラゴニア', 2000, 'img/monsters/dragonia.png', 300, 400);
-$monsters[] = new Monster('妖術士', 3500, 'img/monsters/youjyutu.png', 150, 350);
-$monsters[] = new Monster('サキュバス', 200, 'img/monsters/sakyubas.png', 300, 500);
-$monsters[] = new Monster('ジョーカー', 1500, 'img/monsters/joker.png', 200, 350);
-$monsters[] = new Monster('アサシン', 2000, 'img/monsters/asashin.png', 300, 400);
-$monsters[] = new StrongMonster('神龍', 5000, 'img/monsters/sinryu.png', 600, 700, 1000);
-$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 500, 800, 500);
+$monsters[] = new Monster('デーモン', 2500, 'img/monsters/darkdemon.png', 200, 350);
+$monsters[] = new Monster('リビングソード', 3000, 'img/monsters/ribingsode.png', 200, 300);
+$monsters[] = new Monster('ドラゴニア', 2000, 'img/monsters/dragonia.png', 200, 300);
+$monsters[] = new Monster('妖術士', 3500, 'img/monsters/youjyutu.png', 80, 150);
+$monsters[] = new Monster('サキュバス', 200, 'img/monsters/sakyubas.png', 100, 300);
+$monsters[] = new Monster('ジョーカー', 1500, 'img/monsters/joker.png', 100, 250);
+$monsters[] = new Monster('アサシン', 2000, 'img/monsters/asashin.png', 150, 300);
+$monsters[] = new StrongMonster('神龍', 5000, 'img/monsters/sinryu.png', 400, 500, 600);
+$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 500, 700, 600);
 //var_dump($monsters);
 
 //============================
@@ -356,23 +356,27 @@ if (!empty($_POST)) {
             History::clear();
             // 通常攻撃を選択=============================
             if ($attackFlg) {
+                //プレイヤー->モンスター
                 History::set($_SESSION['human']->getName().'の攻撃！');
                 $_SESSION['human']->attack($_SESSION['monster']);
 
-                // モンスターが攻撃をする
+                //モンスター->プレイヤー
                 History::set($_SESSION['monster']->getName().'の攻撃！');
                 $_SESSION['monster']->attack($_SESSION['human']);
-                History::set($_SESSION['human']->damageVoice());
+                History::set($_SESSION['human']->damageVoice()); //ダメージ時には声
                 // 自分のhpが0以下になったらゲームオーバー
                 if ($_SESSION['human']->getHp() <= 0) {
                     $_SESSION = array();
-                    // hpが0以下になったら、別のモンスターを出現させる
+                } else {
+                    // モンスターのHPが0以下になったら、別のモンスターを出現
+                    //クリアカウントを足す
                     if ($_SESSION['monster']->getHp() <= 0) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
                         createMonster();
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1; //クリアカウントを足していく
                     }
                 }
+
 
                 //魔法攻撃を選択（MPを50消費する)==============================
             } elseif ($magicFlg) {
