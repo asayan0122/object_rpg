@@ -21,18 +21,19 @@ function debug($str)
 //============================
 //変数
 //============================
+//スタート画面を選択
 $startFlg = '';
-//通常攻撃を選択した時の動作
+//通常攻撃を選択し
 $attackFlg = '';
-//魔法攻撃を選択した時の動作
+//魔法攻撃を選択
 $magicFlg = '';
-//回復魔法を選択した時の動作
+//回復魔法を選択
 $healFlg = '';
-//あきらめるを選択した時の動作
+//あきらめるを選択
 $restartFlg = '';
-//逃げるを選択した時の動作
+//逃げるを選択
 $escapeFlg = '';
-//ゲームクリアした時の動作
+//ゲームクリアした時
 $gameClearFlg='';
 
 //============================
@@ -129,7 +130,7 @@ class Human extends Creature
             $magicAttack = $attackPoint * mt_rand(2, 4);
             $magicAttack = (int)$magicAttack;
             $targetObj->setHp($targetObj->getHp()-$magicAttack);
-            $this->setMp($this->getMp()-30);
+            $this->setMp($this->getMp()-50);
             History::set($this->attackVoice());
             History::set($this->getName().'はMPを50ポイント使い魔法攻撃を行った!!');
             History::set($targetObj->getName()."に".$magicAttack.'ポイントのダメージを与えた！');
@@ -140,7 +141,11 @@ class Human extends Creature
             $targetObj->setHp($targetObj->getHp()-$attackPoint);
             History::set($this->attackVoice().$_SESSION['monster']->getName()."に".$attackPoint.'ポイントのダメージを与えた！');
         }
+        if ($_SESSION['human']->getHp() <= 0) {
+            $_SESSION = array();
+        }
     }
+
     //回復魔法（MP50消費）:体力を全回復
     public function toHeal($targetObj)
     {   //50MP以上ないと発動しない
@@ -247,16 +252,16 @@ $humans[] = new Human('ライトニング', 3000, 800, 'ライトニング▷▷
 //var_dump($humans);
 
 //モンスター:$name, $hp, $img, $attackMin, $attackMax(,$magicAttack)
-$monsters[] = new Monster('ダークナイト', 2000, 'img/monsters/darknight.png', 100, 300);
-$monsters[] = new Monster('デーモン', 2500, 'img/monsters/darkdemon.png', 200, 350);
-$monsters[] = new Monster('リビングソード', 3000, 'img/monsters/ribingsode.png', 200, 300);
-$monsters[] = new Monster('ドラゴニア', 2000, 'img/monsters/dragonia.png', 200, 300);
-$monsters[] = new Monster('妖術士', 3500, 'img/monsters/youjyutu.png', 80, 150);
-$monsters[] = new Monster('サキュバス', 200, 'img/monsters/sakyubas.png', 100, 300);
-$monsters[] = new Monster('ジョーカー', 1500, 'img/monsters/joker.png', 100, 250);
-$monsters[] = new Monster('アサシン', 2000, 'img/monsters/asashin.png', 150, 200);
-$monsters[] = new StrongMonster('神龍', 5000, 'img/monsters/sinryu.png', 300, 400, 300);
-$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 200, 300, 500);
+$monsters[] = new Monster('ダークナイト', 2000, 'img/monsters/darknight.png', 200, 400);
+$monsters[] = new Monster('デーモン', 2500, 'img/monsters/darkdemon.png', 300, 450);
+$monsters[] = new Monster('リビングソード', 3000, 'img/monsters/ribingsode.png', 300, 500);
+$monsters[] = new Monster('ドラゴニア', 2000, 'img/monsters/dragonia.png', 300, 400);
+$monsters[] = new Monster('妖術士', 3500, 'img/monsters/youjyutu.png', 150, 350);
+$monsters[] = new Monster('サキュバス', 200, 'img/monsters/sakyubas.png', 300, 500);
+$monsters[] = new Monster('ジョーカー', 1500, 'img/monsters/joker.png', 200, 350);
+$monsters[] = new Monster('アサシン', 2000, 'img/monsters/asashin.png', 300, 400);
+$monsters[] = new StrongMonster('神龍', 5000, 'img/monsters/sinryu.png', 600, 700, 1000);
+$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 500, 800, 500);
 //var_dump($monsters);
 
 //============================
@@ -268,14 +273,14 @@ function createHuman()
     global $humans;
     $human =  $humans[mt_rand(0, 2)];
     $_SESSION['human'] = $human;
-    History::set($_SESSION['human']->getName().'が選択された！！');
+    History::set('▷'.$_SESSION['human']->getName().'が選択された！！');
 }
 //モンスター生成
 function createMonster()
 {
     global $monsters;
     $monster =  $monsters[mt_rand(0, 9)];
-    History::set($monster->getName().'が現れた！');
+    History::set('▷'.$monster->getName().'が現れた！');
     $_SESSION['monster'] = $monster;
 }
 //ゲームスタート用
@@ -321,9 +326,9 @@ if (!empty($_POST)) {
     //ゲームクリアした時の動作
     $gameClearFlg = ($_SESSION['clearCount'] >= 10) ? true : false;
 
-
     //エラーログとPOSTフラグの確認 0or1==============================
     error_log('POST通信');
+}
     debug('session' .print_r($_SESSION, true));
     debug('start:' .print_r($startFlg, true));
     debug('attack:' .print_r($attackFlg, true));
@@ -361,7 +366,6 @@ if (!empty($_POST)) {
                 // 自分のhpが0以下になったらゲームオーバー
                 if ($_SESSION['human']->getHp() <= 0) {
                     $_SESSION = array();
-                } else {
                     // hpが0以下になったら、別のモンスターを出現させる
                     if ($_SESSION['monster']->getHp() <= 0) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
@@ -372,23 +376,30 @@ if (!empty($_POST)) {
 
                 //魔法攻撃を選択（MPを50消費する)==============================
             } elseif ($magicFlg) {
-                $_SESSION['human']->getHumanMagicAttack($_SESSION['monster']);
-
+                //まずプレイヤーのHPが0以下かどうかを判定
                 if ($_SESSION['human']->getHp() <= 0) {
                     $_SESSION = array();
                 } else {
+                    //HPが0以上の場合、プレイヤーの魔法メソッドを呼び出しモンスターを攻撃
+                    $_SESSION['human']->getHumanMagicAttack($_SESSION['monster']);
+                    //攻撃後、モンスターのHPが0以下なら、
                     if ($_SESSION['monster']->getHp() <= 0) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
                         createMonster();
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1;
+                    } else {
+                        //モンスターのHPが0以上であれば、プレイヤーに攻撃
+                        History::set($_SESSION['monster']->getName().'の攻撃！');
+                        $_SESSION['monster']->attack($_SESSION['human']);
+                        History::set($_SESSION['human']->damageVoice());
+                        //その時点でHPがあるかどうかを再度確認
+                        if ($_SESSION['human']->getHp() <= 0) {
+                            $_SESSION = array();
+                        }
                     }
                 }
-                //攻撃判定は、残存体力確認後に行う
-                History::set($_SESSION['monster']->getName().'の攻撃！');
-                $_SESSION['monster']->attack($_SESSION['human']);
-                History::set($_SESSION['human']->damageVoice());
 
-            //回復呪文を選択（MPを50消費する)==============================
+                //回復呪文を選択（MPを50消費する)==============================
             } elseif ($healFlg) {
                 $_SESSION['human']->toHeal($_SESSION['human']);
 
@@ -400,14 +411,16 @@ if (!empty($_POST)) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
                         createMonster();
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1;
+                    } else {
+                        History::set($_SESSION['monster']->getName().'の攻撃！');
+                        $_SESSION['monster']->attack($_SESSION['human']);
+                        History::set($_SESSION['human']->damageVoice());
+                        if ($_SESSION['human']->getHp() <= 0) {
+                            $_SESSION = array();
+                        }
                     }
                 }
-                //攻撃判定は、残存体力確認後に行う
-                History::set($_SESSION['monster']->getName().'の攻撃！');
-                $_SESSION['monster']->attack($_SESSION['human']);
-                History::set($_SESSION['human']->damageVoice());
-
-            //逃げるを選択（1/4で失敗するので気をつける）==============================
+                //逃げるを選択（1/2で失敗するので気をつける）==============================
             } elseif ($escapeFlg) {
                 escapeChance();
 
@@ -417,9 +430,8 @@ if (!empty($_POST)) {
                 session_destroy();
             }
         }
+        $_POST = array();
     }
-    $_POST = array();
-}
 ?>
 
 <!DOCTYPE html>
@@ -460,7 +472,6 @@ if (!empty($_POST)) {
       </div>
     </div>
   </div>
-
   <!--戦闘画面-->
   <?php  } elseif (($startFlg)||(!empty($_SESSION))) { ?>
   <section class="battle-container">

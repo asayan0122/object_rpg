@@ -1,722 +1,59 @@
-[27-Oct-2019 14:32:45 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 323
-[27-Oct-2019 14:32:45 UTC] POST通信
-[27-Oct-2019 14:32:45 UTC] デバッグ：sessionArray
+[28-Oct-2019 11:24:24 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:24:24 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 329
+[28-Oct-2019 11:24:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:329
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 329
+[28-Oct-2019 11:26:49 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:26:49 UTC] POST通信
+[28-Oct-2019 11:26:49 UTC] デバッグ：sessionArray
 (
 )
 
-[27-Oct-2019 14:32:45 UTC] デバッグ：start:1
-[27-Oct-2019 14:32:45 UTC] デバッグ：attack:
-[27-Oct-2019 14:32:45 UTC] デバッグ：magic:
-[27-Oct-2019 14:32:45 UTC] デバッグ：heal:
-[27-Oct-2019 14:32:45 UTC] デバッグ：restart:
-[27-Oct-2019 14:32:45 UTC] デバッグ：escape:
-[27-Oct-2019 14:32:45 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 335
-[27-Oct-2019 14:32:45 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:32:51 UTC] POST通信
-[27-Oct-2019 14:32:51 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 800
-            [attackVoice:protected] => ライトニング▷▶前だけ見てろ！背中は守る！
-            [damageVoice:protected] => ライトニング▷▶終わらない...まだ...！
-            [name:protected] => ライトニング
-            [hp:protected] => 3000
-            [attackMin:protected] => 500
-            [attackMax:protected] => 800
-        )
-
-    [history] => ライトニングが選択された！！<br>ダークナイトが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/darknight.png
-            [name:protected] => ダークナイト
-            [hp:protected] => 2000
-            [attackMin:protected] => 100
-            [attackMax:protected] => 300
-        )
-
-)
-
-[27-Oct-2019 14:32:51 UTC] デバッグ：start:
-[27-Oct-2019 14:32:51 UTC] デバッグ：attack:
-[27-Oct-2019 14:32:51 UTC] デバッグ：magic:
-[27-Oct-2019 14:32:51 UTC] デバッグ：heal:
-[27-Oct-2019 14:32:51 UTC] デバッグ：restart:1
-[27-Oct-2019 14:32:51 UTC] デバッグ：escape:
-[27-Oct-2019 14:32:51 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 335
-[27-Oct-2019 14:32:51 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:36:46 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 323
-[27-Oct-2019 14:36:46 UTC] POST通信
-[27-Oct-2019 14:36:46 UTC] デバッグ：sessionArray
+[28-Oct-2019 11:26:49 UTC] デバッグ：start:
+[28-Oct-2019 11:26:49 UTC] デバッグ：attack:
+[28-Oct-2019 11:26:49 UTC] デバッグ：magic:
+[28-Oct-2019 11:26:49 UTC] デバッグ：heal:1
+[28-Oct-2019 11:26:49 UTC] デバッグ：restart:
+[28-Oct-2019 11:26:49 UTC] デバッグ：escape:
+[28-Oct-2019 11:26:49 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:26:49 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:26:49 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 352
+[28-Oct-2019 11:26:49 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 408
+[28-Oct-2019 11:26:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function toHeal() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:408
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 408
+[28-Oct-2019 11:27:46 UTC] デバッグ：sessionArray
 (
 )
 
-[27-Oct-2019 14:36:46 UTC] デバッグ：start:1
-[27-Oct-2019 14:36:46 UTC] デバッグ：attack:
-[27-Oct-2019 14:36:46 UTC] デバッグ：magic:
-[27-Oct-2019 14:36:46 UTC] デバッグ：heal:
-[27-Oct-2019 14:36:46 UTC] デバッグ：restart:
-[27-Oct-2019 14:36:46 UTC] デバッグ：escape:
-[27-Oct-2019 14:36:46 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 335
-[27-Oct-2019 14:36:46 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:36:53 UTC] POST通信
-[27-Oct-2019 14:36:53 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 3000
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [history] => クラウドが選択された！！<br>サキュバスが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/sakyubas.png
-            [name:protected] => サキュバス
-            [hp:protected] => 200
-            [attackMin:protected] => 100
-            [attackMax:protected] => 300
-        )
-
-)
-
-[27-Oct-2019 14:36:53 UTC] デバッグ：start:
-[27-Oct-2019 14:36:53 UTC] デバッグ：attack:
-[27-Oct-2019 14:36:53 UTC] デバッグ：magic:
-[27-Oct-2019 14:36:53 UTC] デバッグ：heal:
-[27-Oct-2019 14:36:53 UTC] デバッグ：restart:1
-[27-Oct-2019 14:36:53 UTC] デバッグ：escape:
-[27-Oct-2019 14:36:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 335
-[27-Oct-2019 14:36:53 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:36:54 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 323
-[27-Oct-2019 14:36:54 UTC] POST通信
-[27-Oct-2019 14:36:54 UTC] デバッグ：sessionArray
+[28-Oct-2019 11:27:46 UTC] デバッグ：start:
+[28-Oct-2019 11:27:46 UTC] デバッグ：attack:
+[28-Oct-2019 11:27:46 UTC] デバッグ：magic:
+[28-Oct-2019 11:27:46 UTC] デバッグ：heal:
+[28-Oct-2019 11:27:46 UTC] デバッグ：restart:
+[28-Oct-2019 11:27:46 UTC] デバッグ：escape:
+[28-Oct-2019 11:27:46 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:27:46 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:27:46 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 352
+[28-Oct-2019 11:27:47 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:27:47 UTC] POST通信
+[28-Oct-2019 11:27:47 UTC] デバッグ：sessionArray
 (
 )
 
-[27-Oct-2019 14:36:54 UTC] デバッグ：start:1
-[27-Oct-2019 14:36:54 UTC] デバッグ：attack:
-[27-Oct-2019 14:36:54 UTC] デバッグ：magic:
-[27-Oct-2019 14:36:54 UTC] デバッグ：heal:
-[27-Oct-2019 14:36:54 UTC] デバッグ：restart:
-[27-Oct-2019 14:36:54 UTC] デバッグ：escape:
-[27-Oct-2019 14:36:54 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg_game/index.php on line 335
-[27-Oct-2019 14:36:54 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:48:25 UTC] POST通信
-[27-Oct-2019 14:48:25 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 600
-            [attackVoice:protected] => スコール▷▶逃がすか!!
-            [damageVoice:protected] => スコール▷▶読みちがえたな...
-            [name:protected] => スコール
-            [hp:protected] => 3000
-            [attackMin:protected] => 600
-            [attackMax:protected] => 900
-        )
-
-    [history] => スコールが選択された！！<br>妖術士が現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/youjyutu.png
-            [name:protected] => 妖術士
-            [hp:protected] => 3500
-            [attackMin:protected] => 80
-            [attackMax:protected] => 150
-        )
-
-)
-
-[27-Oct-2019 14:48:25 UTC] デバッグ：start:
-[27-Oct-2019 14:48:25 UTC] デバッグ：attack:
-[27-Oct-2019 14:48:25 UTC] デバッグ：magic:
-[27-Oct-2019 14:48:25 UTC] デバッグ：heal:
-[27-Oct-2019 14:48:25 UTC] デバッグ：restart:1
-[27-Oct-2019 14:48:25 UTC] デバッグ：escape:
-[27-Oct-2019 14:48:25 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:48:25 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:48:26 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:48:26 UTC] POST通信
-[27-Oct-2019 14:48:26 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:48:26 UTC] デバッグ：start:1
-[27-Oct-2019 14:48:26 UTC] デバッグ：attack:
-[27-Oct-2019 14:48:26 UTC] デバッグ：magic:
-[27-Oct-2019 14:48:26 UTC] デバッグ：heal:
-[27-Oct-2019 14:48:26 UTC] デバッグ：restart:
-[27-Oct-2019 14:48:26 UTC] デバッグ：escape:
-[27-Oct-2019 14:48:26 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:48:26 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:48:31 UTC] POST通信
-[27-Oct-2019 14:48:31 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 800
-            [attackVoice:protected] => ライトニング▷▶前だけ見てろ！背中は守る！
-            [damageVoice:protected] => ライトニング▷▶終わらない...まだ...！
-            [name:protected] => ライトニング
-            [hp:protected] => 3000
-            [attackMin:protected] => 500
-            [attackMax:protected] => 800
-        )
-
-    [history] => ライトニングが選択された！！<br>ダークマターが現れた！<br>
-    [monster] => StrongMonster Object
-        (
-            [magicAttack:StrongMonster:private] => 500
-            [img:protected] => img/monsters/darkmatar.png
-            [name:protected] => ダークマター
-            [hp:protected] => 5000
-            [attackMin:protected] => 200
-            [attackMax:protected] => 300
-        )
-
-)
-
-[27-Oct-2019 14:48:31 UTC] デバッグ：start:
-[27-Oct-2019 14:48:31 UTC] デバッグ：attack:
-[27-Oct-2019 14:48:31 UTC] デバッグ：magic:
-[27-Oct-2019 14:48:31 UTC] デバッグ：heal:
-[27-Oct-2019 14:48:31 UTC] デバッグ：restart:1
-[27-Oct-2019 14:48:31 UTC] デバッグ：escape:
-[27-Oct-2019 14:48:31 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:48:31 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:48:33 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:48:33 UTC] POST通信
-[27-Oct-2019 14:48:33 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:48:33 UTC] デバッグ：start:1
-[27-Oct-2019 14:48:33 UTC] デバッグ：attack:
-[27-Oct-2019 14:48:33 UTC] デバッグ：magic:
-[27-Oct-2019 14:48:33 UTC] デバッグ：heal:
-[27-Oct-2019 14:48:33 UTC] デバッグ：restart:
-[27-Oct-2019 14:48:33 UTC] デバッグ：escape:
-[27-Oct-2019 14:48:33 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:48:33 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:49:22 UTC] POST通信
-[27-Oct-2019 14:49:22 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 600
-            [attackVoice:protected] => スコール▷▶逃がすか!!
-            [damageVoice:protected] => スコール▷▶読みちがえたな...
-            [name:protected] => スコール
-            [hp:protected] => 3000
-            [attackMin:protected] => 600
-            [attackMax:protected] => 900
-        )
-
-    [history] => スコールが選択された！！<br>アサシンが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/asashin.png
-            [name:protected] => アサシン
-            [hp:protected] => 2000
-            [attackMin:protected] => 150
-            [attackMax:protected] => 200
-        )
-
-)
-
-[27-Oct-2019 14:49:22 UTC] デバッグ：start:
-[27-Oct-2019 14:49:22 UTC] デバッグ：attack:
-[27-Oct-2019 14:49:22 UTC] デバッグ：magic:
-[27-Oct-2019 14:49:22 UTC] デバッグ：heal:
-[27-Oct-2019 14:49:22 UTC] デバッグ：restart:1
-[27-Oct-2019 14:49:22 UTC] デバッグ：escape:
-[27-Oct-2019 14:49:22 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:49:22 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:49:23 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:49:23 UTC] POST通信
-[27-Oct-2019 14:49:23 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:49:23 UTC] デバッグ：start:1
-[27-Oct-2019 14:49:23 UTC] デバッグ：attack:
-[27-Oct-2019 14:49:23 UTC] デバッグ：magic:
-[27-Oct-2019 14:49:23 UTC] デバッグ：heal:
-[27-Oct-2019 14:49:23 UTC] デバッグ：restart:
-[27-Oct-2019 14:49:23 UTC] デバッグ：escape:
-[27-Oct-2019 14:49:23 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:49:23 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:49:27 UTC] POST通信
-[27-Oct-2019 14:49:27 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 800
-            [attackVoice:protected] => ライトニング▷▶前だけ見てろ！背中は守る！
-            [damageVoice:protected] => ライトニング▷▶終わらない...まだ...！
-            [name:protected] => ライトニング
-            [hp:protected] => 3000
-            [attackMin:protected] => 500
-            [attackMax:protected] => 800
-        )
-
-    [history] => ライトニングが選択された！！<br>デーモンが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/darkdemon.png
-            [name:protected] => デーモン
-            [hp:protected] => 2500
-            [attackMin:protected] => 200
-            [attackMax:protected] => 350
-        )
-
-)
-
-[27-Oct-2019 14:49:27 UTC] デバッグ：start:
-[27-Oct-2019 14:49:27 UTC] デバッグ：attack:
-[27-Oct-2019 14:49:27 UTC] デバッグ：magic:
-[27-Oct-2019 14:49:27 UTC] デバッグ：heal:
-[27-Oct-2019 14:49:27 UTC] デバッグ：restart:1
-[27-Oct-2019 14:49:27 UTC] デバッグ：escape:
-[27-Oct-2019 14:49:27 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:49:27 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:51:09 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:51:09 UTC] POST通信
-[27-Oct-2019 14:51:09 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:51:09 UTC] デバッグ：start:
-[27-Oct-2019 14:51:09 UTC] デバッグ：attack:
-[27-Oct-2019 14:51:09 UTC] デバッグ：magic:
-[27-Oct-2019 14:51:09 UTC] デバッグ：heal:
-[27-Oct-2019 14:51:09 UTC] デバッグ：restart:1
-[27-Oct-2019 14:51:09 UTC] デバッグ：escape:
-[27-Oct-2019 14:51:09 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:51:09 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:51:09 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 345
-[27-Oct-2019 14:51:09 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:51:09 UTC] POST通信
-[27-Oct-2019 14:51:09 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:51:09 UTC] デバッグ：start:1
-[27-Oct-2019 14:51:09 UTC] デバッグ：attack:
-[27-Oct-2019 14:51:09 UTC] デバッグ：magic:
-[27-Oct-2019 14:51:09 UTC] デバッグ：heal:
-[27-Oct-2019 14:51:09 UTC] デバッグ：restart:
-[27-Oct-2019 14:51:09 UTC] デバッグ：escape:
-[27-Oct-2019 14:51:09 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:51:09 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:51:13 UTC] POST通信
-[27-Oct-2019 14:51:13 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 800
-            [attackVoice:protected] => ライトニング▷▶前だけ見てろ！背中は守る！
-            [damageVoice:protected] => ライトニング▷▶終わらない...まだ...！
-            [name:protected] => ライトニング
-            [hp:protected] => 3000
-            [attackMin:protected] => 500
-            [attackMax:protected] => 800
-        )
-
-    [history] => ライトニングが選択された！！<br>神龍が現れた！<br>
-    [monster] => StrongMonster Object
-        (
-            [magicAttack:StrongMonster:private] => 300
-            [img:protected] => img/monsters/sinryu.png
-            [name:protected] => 神龍
-            [hp:protected] => 5000
-            [attackMin:protected] => 300
-            [attackMax:protected] => 400
-        )
-
-)
-
-[27-Oct-2019 14:51:13 UTC] デバッグ：start:1
-[27-Oct-2019 14:51:13 UTC] デバッグ：attack:
-[27-Oct-2019 14:51:13 UTC] デバッグ：magic:
-[27-Oct-2019 14:51:13 UTC] デバッグ：heal:
-[27-Oct-2019 14:51:13 UTC] デバッグ：restart:
-[27-Oct-2019 14:51:13 UTC] デバッグ：escape:
-[27-Oct-2019 14:51:13 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:51:13 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:51:40 UTC] POST通信
-[27-Oct-2019 14:51:40 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 800
-            [attackVoice:protected] => ライトニング▷▶前だけ見てろ！背中は守る！
-            [damageVoice:protected] => ライトニング▷▶終わらない...まだ...！
-            [name:protected] => ライトニング
-            [hp:protected] => 3000
-            [attackMin:protected] => 500
-            [attackMax:protected] => 800
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/darkdemon.png
-            [name:protected] => デーモン
-            [hp:protected] => 2500
-            [attackMin:protected] => 200
-            [attackMax:protected] => 350
-        )
-
-    [history] => ライトニングが選択された！！<br>デーモンが現れた！<br>
-)
-
-[27-Oct-2019 14:51:40 UTC] デバッグ：start:
-[27-Oct-2019 14:51:40 UTC] デバッグ：attack:
-[27-Oct-2019 14:51:40 UTC] デバッグ：magic:
-[27-Oct-2019 14:51:40 UTC] デバッグ：heal:
-[27-Oct-2019 14:51:40 UTC] デバッグ：restart:1
-[27-Oct-2019 14:51:40 UTC] デバッグ：escape:
-[27-Oct-2019 14:51:40 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:51:40 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:51:41 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:51:41 UTC] POST通信
-[27-Oct-2019 14:51:41 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:51:41 UTC] デバッグ：start:1
-[27-Oct-2019 14:51:41 UTC] デバッグ：attack:
-[27-Oct-2019 14:51:41 UTC] デバッグ：magic:
-[27-Oct-2019 14:51:41 UTC] デバッグ：heal:
-[27-Oct-2019 14:51:41 UTC] デバッグ：restart:
-[27-Oct-2019 14:51:41 UTC] デバッグ：escape:
-[27-Oct-2019 14:51:41 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:51:41 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:54:12 UTC] POST通信
-[27-Oct-2019 14:54:12 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 3000
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [history] => クラウドが選択された！！<br>リビングソードが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/ribingsode.png
-            [name:protected] => リビングソード
-            [hp:protected] => 3000
-            [attackMin:protected] => 200
-            [attackMax:protected] => 300
-        )
-
-)
-
-[27-Oct-2019 14:54:12 UTC] デバッグ：start:1
-[27-Oct-2019 14:54:12 UTC] デバッグ：attack:
-[27-Oct-2019 14:54:12 UTC] デバッグ：magic:
-[27-Oct-2019 14:54:12 UTC] デバッグ：heal:
-[27-Oct-2019 14:54:12 UTC] デバッグ：restart:
-[27-Oct-2019 14:54:12 UTC] デバッグ：escape:
-[27-Oct-2019 14:54:12 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:54:12 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:54:14 UTC] POST通信
-[27-Oct-2019 14:54:14 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 3000
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/sakyubas.png
-            [name:protected] => サキュバス
-            [hp:protected] => 200
-            [attackMin:protected] => 100
-            [attackMax:protected] => 300
-        )
-
-    [history] => クラウドが選択された！！<br>サキュバスが現れた！<br>
-)
-
-[27-Oct-2019 14:54:14 UTC] デバッグ：start:
-[27-Oct-2019 14:54:14 UTC] デバッグ：attack:
-[27-Oct-2019 14:54:14 UTC] デバッグ：magic:
-[27-Oct-2019 14:54:14 UTC] デバッグ：heal:
-[27-Oct-2019 14:54:14 UTC] デバッグ：restart:
-[27-Oct-2019 14:54:14 UTC] デバッグ：escape:1
-[27-Oct-2019 14:54:14 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:54:14 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:54:16 UTC] POST通信
-[27-Oct-2019 14:54:16 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 2760
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/sakyubas.png
-            [name:protected] => サキュバス
-            [hp:protected] => 200
-            [attackMin:protected] => 100
-            [attackMax:protected] => 300
-        )
-
-    [history] => サキュバスに回り込まれた！<br>240ポイントのダメージ！<br>クラウド▷▶真っ白だ...<br>
-)
-
-[27-Oct-2019 14:54:16 UTC] デバッグ：start:
-[27-Oct-2019 14:54:16 UTC] デバッグ：attack:1
-[27-Oct-2019 14:54:16 UTC] デバッグ：magic:
-[27-Oct-2019 14:54:16 UTC] デバッグ：heal:
-[27-Oct-2019 14:54:16 UTC] デバッグ：restart:
-[27-Oct-2019 14:54:16 UTC] デバッグ：escape:
-[27-Oct-2019 14:54:16 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:54:16 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:54:24 UTC] POST通信
-[27-Oct-2019 14:54:24 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 1
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 2564
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/youjyutu.png
-            [name:protected] => 妖術士
-            [hp:protected] => 3500
-            [attackMin:protected] => 80
-            [attackMax:protected] => 150
-        )
-
-    [history] => クラウドの攻撃！<br>クラウドは会心の一撃!!<br>1008ポイントのダメージ！<br>サキュバスの攻撃！<br>196ポイントのダメージ！<br>クラウド▷▶真っ白だ...<br>サキュバスを倒した！<br>妖術士が現れた！<br>
-)
-
-[27-Oct-2019 14:54:24 UTC] デバッグ：start:
-[27-Oct-2019 14:54:24 UTC] デバッグ：attack:1
-[27-Oct-2019 14:54:24 UTC] デバッグ：magic:
-[27-Oct-2019 14:54:24 UTC] デバッグ：heal:
-[27-Oct-2019 14:54:24 UTC] デバッグ：restart:
-[27-Oct-2019 14:54:24 UTC] デバッグ：escape:
-[27-Oct-2019 14:54:24 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:54:24 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:56:01 UTC] POST通信
-[27-Oct-2019 14:56:01 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 1
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => クラウド▷▶行くぜ！！
-            [damageVoice:protected] => クラウド▷▶真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 2414
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/youjyutu.png
-            [name:protected] => 妖術士
-            [hp:protected] => 2822
-            [attackMin:protected] => 80
-            [attackMax:protected] => 150
-        )
-
-    [history] => クラウドの攻撃！<br>678ポイントのダメージ！<br>妖術士の攻撃！<br>150ポイントのダメージ！<br>クラウド▷▶真っ白だ...<br>
-)
-
-[27-Oct-2019 14:56:01 UTC] デバッグ：start:
-[27-Oct-2019 14:56:01 UTC] デバッグ：attack:
-[27-Oct-2019 14:56:01 UTC] デバッグ：magic:
-[27-Oct-2019 14:56:01 UTC] デバッグ：heal:
-[27-Oct-2019 14:56:01 UTC] デバッグ：restart:1
-[27-Oct-2019 14:56:01 UTC] デバッグ：escape:
-[27-Oct-2019 14:56:01 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:56:01 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:56:02 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:56:02 UTC] POST通信
-[27-Oct-2019 14:56:02 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:56:02 UTC] デバッグ：start:1
-[27-Oct-2019 14:56:02 UTC] デバッグ：attack:
-[27-Oct-2019 14:56:02 UTC] デバッグ：magic:
-[27-Oct-2019 14:56:02 UTC] デバッグ：heal:
-[27-Oct-2019 14:56:02 UTC] デバッグ：restart:
-[27-Oct-2019 14:56:02 UTC] デバッグ：escape:
-[27-Oct-2019 14:56:02 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:56:02 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:56:04 UTC] POST通信
-[27-Oct-2019 14:56:04 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => ▶▷行くぜ！！
-            [damageVoice:protected] => ▶▷真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 3000
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [history] => クラウドが選択された！！<br>リビングソードが現れた！<br>
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/ribingsode.png
-            [name:protected] => リビングソード
-            [hp:protected] => 3000
-            [attackMin:protected] => 200
-            [attackMax:protected] => 300
-        )
-
-)
-
-[27-Oct-2019 14:56:04 UTC] デバッグ：start:
-[27-Oct-2019 14:56:04 UTC] デバッグ：attack:1
-[27-Oct-2019 14:56:04 UTC] デバッグ：magic:
-[27-Oct-2019 14:56:04 UTC] デバッグ：heal:
-[27-Oct-2019 14:56:04 UTC] デバッグ：restart:
-[27-Oct-2019 14:56:04 UTC] デバッグ：escape:
-[27-Oct-2019 14:56:04 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:56:04 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:56:10 UTC] POST通信
-[27-Oct-2019 14:56:10 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 0
-    [human] => Human Object
-        (
-            [mp:protected] => 700
-            [attackVoice:protected] => ▶▷行くぜ！！
-            [damageVoice:protected] => ▶▷真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 2747
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/ribingsode.png
-            [name:protected] => リビングソード
-            [hp:protected] => 2534
-            [attackMin:protected] => 200
-            [attackMax:protected] => 300
-        )
-
-    [history] => クラウドの攻撃！<br>466ポイントのダメージ！<br>リビングソードの攻撃！<br>253ポイントのダメージ！<br>▶▷真っ白だ...<br>
-)
-
-[27-Oct-2019 14:56:10 UTC] デバッグ：start:
-[27-Oct-2019 14:56:10 UTC] デバッグ：attack:
-[27-Oct-2019 14:56:10 UTC] デバッグ：magic:1
-[27-Oct-2019 14:56:10 UTC] デバッグ：heal:
-[27-Oct-2019 14:56:10 UTC] デバッグ：restart:
-[27-Oct-2019 14:56:10 UTC] デバッグ：escape:
-[27-Oct-2019 14:56:10 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:56:10 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:57:09 UTC] POST通信
-[27-Oct-2019 14:57:09 UTC] デバッグ：sessionArray
-(
-    [clearCount] => 1
-    [human] => Human Object
-        (
-            [mp:protected] => 670
-            [attackVoice:protected] => ▶▷行くぜ！！
-            [damageVoice:protected] => ▶▷真っ白だ...
-            [name:protected] => クラウド
-            [hp:protected] => 2579
-            [attackMin:protected] => 400
-            [attackMax:protected] => 700
-        )
-
-    [monster] => Monster Object
-        (
-            [img:protected] => img/monsters/sakyubas.png
-            [name:protected] => サキュバス
-            [hp:protected] => 200
-            [attackMin:protected] => 100
-            [attackMax:protected] => 300
-        )
-
-    [history] => ▶▷行くぜ！！<br>クラウドはMPを50ポイント使い魔法攻撃を行った!!<br>リビングソードに2640ポイントのダメージを与えた！<br>リビングソードを倒した！<br>サキュバスが現れた！<br>サキュバスの攻撃！<br>168ポイントのダメージ！<br>▶▷真っ白だ...<br>
-)
-
-[27-Oct-2019 14:57:09 UTC] デバッグ：start:
-[27-Oct-2019 14:57:09 UTC] デバッグ：attack:
-[27-Oct-2019 14:57:09 UTC] デバッグ：magic:
-[27-Oct-2019 14:57:09 UTC] デバッグ：heal:
-[27-Oct-2019 14:57:09 UTC] デバッグ：restart:1
-[27-Oct-2019 14:57:09 UTC] デバッグ：escape:
-[27-Oct-2019 14:57:09 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:57:09 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:57:10 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 322
-[27-Oct-2019 14:57:10 UTC] POST通信
-[27-Oct-2019 14:57:10 UTC] デバッグ：sessionArray
-(
-)
-
-[27-Oct-2019 14:57:10 UTC] デバッグ：start:1
-[27-Oct-2019 14:57:10 UTC] デバッグ：attack:
-[27-Oct-2019 14:57:10 UTC] デバッグ：magic:
-[27-Oct-2019 14:57:10 UTC] デバッグ：heal:
-[27-Oct-2019 14:57:10 UTC] デバッグ：restart:
-[27-Oct-2019 14:57:10 UTC] デバッグ：escape:
-[27-Oct-2019 14:57:10 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:57:10 UTC] デバッグ：gameclear:
-[27-Oct-2019 14:57:11 UTC] POST通信
-[27-Oct-2019 14:57:11 UTC] デバッグ：sessionArray
+[28-Oct-2019 11:27:47 UTC] デバッグ：start:1
+[28-Oct-2019 11:27:47 UTC] デバッグ：attack:
+[28-Oct-2019 11:27:47 UTC] デバッグ：magic:
+[28-Oct-2019 11:27:47 UTC] デバッグ：heal:
+[28-Oct-2019 11:27:47 UTC] デバッグ：restart:
+[28-Oct-2019 11:27:47 UTC] デバッグ：escape:
+[28-Oct-2019 11:27:47 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:27:47 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:27:47 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:27:59 UTC] POST通信
+[28-Oct-2019 11:27:59 UTC] デバッグ：sessionArray
 (
     [clearCount] => 0
     [human] => Human Object
@@ -730,7 +67,717 @@
             [attackMax:protected] => 900
         )
 
-    [history] => スコールが選択された！！<br>デーモンが現れた！<br>
+    [history] => ▷スコールが選択された！！<br>▷ダークマターが現れた！<br>
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 500
+            [img:protected] => img/monsters/darkmatar.png
+            [name:protected] => ダークマター
+            [hp:protected] => 5000
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+)
+
+[28-Oct-2019 11:27:59 UTC] デバッグ：start:
+[28-Oct-2019 11:27:59 UTC] デバッグ：attack:
+[28-Oct-2019 11:27:59 UTC] デバッグ：magic:1
+[28-Oct-2019 11:27:59 UTC] デバッグ：heal:
+[28-Oct-2019 11:27:59 UTC] デバッグ：restart:
+[28-Oct-2019 11:27:59 UTC] デバッグ：escape:
+[28-Oct-2019 11:27:59 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:27:59 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:27:59 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:00 UTC] POST通信
+[28-Oct-2019 11:28:00 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 2394
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 500
+            [img:protected] => img/monsters/darkmatar.png
+            [name:protected] => ダークマター
+            [hp:protected] => 2536
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコール▷▷逃がすか!!<br>スコールはMPを50ポイント使い魔法攻撃を行った!!<br>ダークマターに2464ポイントのダメージを与えた！<br>ダークマターの攻撃！<br>ダークマターは会心の一撃!!<br>606ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:00 UTC] デバッグ：start:
+[28-Oct-2019 11:28:00 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:00 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:00 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:00 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:00 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:00 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:00 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:00 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:00 UTC] POST通信
+[28-Oct-2019 11:28:00 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 2168
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 500
+            [img:protected] => img/monsters/darkmatar.png
+            [name:protected] => ダークマター
+            [hp:protected] => 1892
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>644ポイントのダメージ！<br>ダークマターの攻撃！<br>226ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:00 UTC] デバッグ：start:
+[28-Oct-2019 11:28:00 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:00 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:00 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:00 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:00 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:00 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:00 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:00 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:01 UTC] POST通信
+[28-Oct-2019 11:28:01 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1894
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 500
+            [img:protected] => img/monsters/darkmatar.png
+            [name:protected] => ダークマター
+            [hp:protected] => 1140
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>752ポイントのダメージ！<br>ダークマターの攻撃！<br>274ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:01 UTC] デバッグ：start:
+[28-Oct-2019 11:28:01 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:01 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:01 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:01 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:01 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:01 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:01 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:01 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:01 UTC] POST通信
+[28-Oct-2019 11:28:01 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1684
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 500
+            [img:protected] => img/monsters/darkmatar.png
+            [name:protected] => ダークマター
+            [hp:protected] => 332
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>808ポイントのダメージ！<br>ダークマターの攻撃！<br>210ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:01 UTC] デバッグ：start:
+[28-Oct-2019 11:28:01 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:01 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:01 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:01 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:01 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:01 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:01 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:01 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:02 UTC] POST通信
+[28-Oct-2019 11:28:02 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1479
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 2500
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => スコールの攻撃！<br>843ポイントのダメージ！<br>ダークマターの攻撃！<br>205ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>ダークマターを倒した！<br>▷デーモンが現れた！<br>
+)
+
+[28-Oct-2019 11:28:02 UTC] デバッグ：start:
+[28-Oct-2019 11:28:02 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:02 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:02 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:02 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:02 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:02 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:02 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:02 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:02 UTC] POST通信
+[28-Oct-2019 11:28:02 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1214
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 1615
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => スコールの攻撃！<br>885ポイントのダメージ！<br>デーモンの攻撃！<br>265ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:02 UTC] デバッグ：start:
+[28-Oct-2019 11:28:02 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:02 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:02 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:02 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:02 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:02 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:02 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:02 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:03 UTC] POST通信
+[28-Oct-2019 11:28:03 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 887
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 806
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => スコールの攻撃！<br>809ポイントのダメージ！<br>デーモンの攻撃！<br>327ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:03 UTC] デバッグ：start:
+[28-Oct-2019 11:28:03 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:03 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:03 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:03 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:03 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:03 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:03 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:03 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:03 UTC] POST通信
+[28-Oct-2019 11:28:03 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 610
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 56
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => スコールの攻撃！<br>750ポイントのダメージ！<br>デーモンの攻撃！<br>277ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:03 UTC] デバッグ：start:
+[28-Oct-2019 11:28:03 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:03 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:03 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:03 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:03 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:03 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:03 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:05 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:28:05 UTC] POST通信
+[28-Oct-2019 11:28:05 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:28:05 UTC] デバッグ：start:1
+[28-Oct-2019 11:28:05 UTC] デバッグ：attack:
+[28-Oct-2019 11:28:05 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:05 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:05 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:05 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:05 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:05 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:05 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:07 UTC] POST通信
+[28-Oct-2019 11:28:07 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 3000
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [history] => ▷スコールが選択された！！<br>▷リビングソードが現れた！<br>
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 3000
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+)
+
+[28-Oct-2019 11:28:07 UTC] デバッグ：start:
+[28-Oct-2019 11:28:07 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:07 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:07 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:07 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:07 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:07 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:07 UTC] POST通信
+[28-Oct-2019 11:28:07 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 2486
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 2217
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>783ポイントのダメージ！<br>リビングソードの攻撃！<br>リビングソードは会心の一撃!!<br>514ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:07 UTC] デバッグ：start:
+[28-Oct-2019 11:28:07 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:07 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:07 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:07 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:07 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:07 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:07 UTC] POST通信
+[28-Oct-2019 11:28:07 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 2262
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 1541
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>676ポイントのダメージ！<br>リビングソードの攻撃！<br>224ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:07 UTC] デバッグ：start:
+[28-Oct-2019 11:28:07 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:07 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:07 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:07 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:07 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:07 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:07 UTC] POST通信
+[28-Oct-2019 11:28:07 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1362
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 762
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>779ポイントのダメージ！<br>リビングソードの攻撃！<br>リビングソードは会心の一撃!!<br>900ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:07 UTC] デバッグ：start:
+[28-Oct-2019 11:28:07 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:07 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:07 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:07 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:07 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:07 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:07 UTC] POST通信
+[28-Oct-2019 11:28:07 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 1062
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 83
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>679ポイントのダメージ！<br>リビングソードの攻撃！<br>300ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:07 UTC] デバッグ：start:
+[28-Oct-2019 11:28:07 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:07 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:07 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:07 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:07 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:07 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:07 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:08 UTC] POST通信
+[28-Oct-2019 11:28:08 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 612
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/dragonia.png
+            [name:protected] => ドラゴニア
+            [hp:protected] => 2000
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>703ポイントのダメージ！<br>リビングソードの攻撃！<br>リビングソードは会心の一撃!!<br>450ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>リビングソードを倒した！<br>▷ドラゴニアが現れた！<br>
+)
+
+[28-Oct-2019 11:28:08 UTC] デバッグ：start:
+[28-Oct-2019 11:28:08 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:08 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:08 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:08 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:08 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:08 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:08 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:08 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:08 UTC] POST通信
+[28-Oct-2019 11:28:08 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 372
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/dragonia.png
+            [name:protected] => ドラゴニア
+            [hp:protected] => 1380
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>620ポイントのダメージ！<br>ドラゴニアの攻撃！<br>240ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:08 UTC] デバッグ：start:
+[28-Oct-2019 11:28:08 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:08 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:08 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:08 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:08 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:08 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:08 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:28:08 UTC] PHP Notice:  Undefined variable: gameOverflg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 479
+[28-Oct-2019 11:28:11 UTC] POST通信
+[28-Oct-2019 11:28:11 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 77
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/dragonia.png
+            [name:protected] => ドラゴニア
+            [hp:protected] => 653
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => スコールの攻撃！<br>727ポイントのダメージ！<br>ドラゴニアの攻撃！<br>295ポイントのダメージ！<br>スコール▷▷読みちがえたな...<br>
+)
+
+[28-Oct-2019 11:28:11 UTC] デバッグ：start:
+[28-Oct-2019 11:28:11 UTC] デバッグ：attack:1
+[28-Oct-2019 11:28:11 UTC] デバッグ：magic:
+[28-Oct-2019 11:28:11 UTC] デバッグ：heal:
+[28-Oct-2019 11:28:11 UTC] デバッグ：restart:
+[28-Oct-2019 11:28:11 UTC] デバッグ：escape:
+[28-Oct-2019 11:28:11 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 341
+[28-Oct-2019 11:28:11 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:02 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:33:02 UTC] POST通信
+[28-Oct-2019 11:33:02 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:33:02 UTC] デバッグ：start:
+[28-Oct-2019 11:33:02 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:02 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:02 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:02 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:02 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:02 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:02 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:02 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:33:02 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:33:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:359
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:33:11 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:33:11 UTC] POST通信
+[28-Oct-2019 11:33:11 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:33:11 UTC] デバッグ：start:
+[28-Oct-2019 11:33:11 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:11 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:11 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:11 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:11 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:11 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:11 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:11 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:33:11 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:33:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:359
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:33:14 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:33:14 UTC] デバッグ：start:
+[28-Oct-2019 11:33:14 UTC] デバッグ：attack:
+[28-Oct-2019 11:33:14 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:14 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:14 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:14 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:14 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:14 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:14 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:33:14 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:33:14 UTC] デバッグ：start:
+[28-Oct-2019 11:33:14 UTC] デバッグ：attack:
+[28-Oct-2019 11:33:14 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:14 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:14 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:14 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:14 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:14 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:14 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:33:17 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:33:17 UTC] POST通信
+[28-Oct-2019 11:33:17 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:33:17 UTC] デバッグ：start:1
+[28-Oct-2019 11:33:17 UTC] デバッグ：attack:
+[28-Oct-2019 11:33:17 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:17 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:17 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:17 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:17 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:17 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:22 UTC] POST通信
+[28-Oct-2019 11:33:22 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 3000
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [history] => ▷ライトニングが選択された！！<br>▷デーモンが現れた！<br>
     [monster] => Monster Object
         (
             [img:protected] => img/monsters/darkdemon.png
@@ -742,11 +789,899 @@
 
 )
 
-[27-Oct-2019 14:57:11 UTC] デバッグ：start:
-[27-Oct-2019 14:57:11 UTC] デバッグ：attack:1
-[27-Oct-2019 14:57:11 UTC] デバッグ：magic:
-[27-Oct-2019 14:57:11 UTC] デバッグ：heal:
-[27-Oct-2019 14:57:11 UTC] デバッグ：restart:
-[27-Oct-2019 14:57:11 UTC] デバッグ：escape:
-[27-Oct-2019 14:57:11 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 334
-[27-Oct-2019 14:57:11 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:22 UTC] デバッグ：start:
+[28-Oct-2019 11:33:22 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:22 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:22 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:22 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:22 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:22 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:22 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:22 UTC] POST通信
+[28-Oct-2019 11:33:22 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 2302
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 1749
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>751ポイントのダメージ！<br>デーモンの攻撃！<br>デーモンは会心の一撃!!<br>698ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:22 UTC] デバッグ：start:
+[28-Oct-2019 11:33:22 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:22 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:22 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:22 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:22 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:22 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:22 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:22 UTC] POST通信
+[28-Oct-2019 11:33:22 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1968
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 1050
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>699ポイントのダメージ！<br>デーモンの攻撃！<br>334ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:22 UTC] デバッグ：start:
+[28-Oct-2019 11:33:22 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:22 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:22 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:22 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:22 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:22 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:22 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:23 UTC] POST通信
+[28-Oct-2019 11:33:23 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1633
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 327
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>723ポイントのダメージ！<br>デーモンの攻撃！<br>335ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:23 UTC] デバッグ：start:
+[28-Oct-2019 11:33:23 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:23 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:23 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:23 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:23 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:23 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:23 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:23 UTC] POST通信
+[28-Oct-2019 11:33:23 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1344
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => -280
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>607ポイントのダメージ！<br>デーモンの攻撃！<br>289ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:23 UTC] デバッグ：start:
+[28-Oct-2019 11:33:23 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:23 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:23 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:23 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:23 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:23 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:23 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:23 UTC] POST通信
+[28-Oct-2019 11:33:23 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1045
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => -876
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>596ポイントのダメージ！<br>デーモンの攻撃！<br>299ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:23 UTC] デバッグ：start:
+[28-Oct-2019 11:33:23 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:23 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:23 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:23 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:23 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:23 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:23 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:24 UTC] POST通信
+[28-Oct-2019 11:33:24 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 820
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => -1629
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>753ポイントのダメージ！<br>デーモンの攻撃！<br>225ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:24 UTC] デバッグ：start:
+[28-Oct-2019 11:33:24 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:24 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:24 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:24 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:24 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:24 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:24 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:24 UTC] POST通信
+[28-Oct-2019 11:33:24 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 529
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => -2415
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>786ポイントのダメージ！<br>デーモンの攻撃！<br>291ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:24 UTC] デバッグ：start:
+[28-Oct-2019 11:33:24 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:24 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:24 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:24 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:24 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:24 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:24 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:25 UTC] POST通信
+[28-Oct-2019 11:33:25 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 306
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => -3096
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => ライトニングの攻撃！<br>681ポイントのダメージ！<br>デーモンの攻撃！<br>223ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:33:25 UTC] デバッグ：start:
+[28-Oct-2019 11:33:25 UTC] デバッグ：attack:1
+[28-Oct-2019 11:33:25 UTC] デバッグ：magic:
+[28-Oct-2019 11:33:25 UTC] デバッグ：heal:
+[28-Oct-2019 11:33:25 UTC] デバッグ：restart:
+[28-Oct-2019 11:33:25 UTC] デバッグ：escape:
+[28-Oct-2019 11:33:25 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:33:25 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:33:25 UTC] PHP Notice:  Undefined index: monster in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 371
+[28-Oct-2019 11:33:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:371
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 371
+[28-Oct-2019 11:36:44 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:36:44 UTC] POST通信
+[28-Oct-2019 11:36:44 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:36:44 UTC] デバッグ：start:
+[28-Oct-2019 11:36:44 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:44 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:44 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:44 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:44 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:44 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:44 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:44 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:36:44 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:36:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:359
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:36:49 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:36:49 UTC] デバッグ：start:
+[28-Oct-2019 11:36:49 UTC] デバッグ：attack:
+[28-Oct-2019 11:36:49 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:49 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:49 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:49 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:49 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:49 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:49 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:36:49 UTC] PHP Notice:  Undefined variable: komento in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 462
+[28-Oct-2019 11:36:50 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:36:50 UTC] POST通信
+[28-Oct-2019 11:36:50 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:36:50 UTC] デバッグ：start:1
+[28-Oct-2019 11:36:50 UTC] デバッグ：attack:
+[28-Oct-2019 11:36:50 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:50 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:50 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:50 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:50 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:50 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:51 UTC] POST通信
+[28-Oct-2019 11:36:51 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 3000
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [history] => ▷ライトニングが選択された！！<br>▷リビングソードが現れた！<br>
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 3000
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+)
+
+[28-Oct-2019 11:36:51 UTC] デバッグ：start:
+[28-Oct-2019 11:36:51 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:51 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:51 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:51 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:51 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:51 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:51 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:52 UTC] POST通信
+[28-Oct-2019 11:36:52 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 2786
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 2291
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>709ポイントのダメージ！<br>リビングソードの攻撃！<br>214ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:52 UTC] デバッグ：start:
+[28-Oct-2019 11:36:52 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:52 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:52 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:52 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:52 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:52 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:52 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:52 UTC] POST通信
+[28-Oct-2019 11:36:52 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 2553
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 1732
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>559ポイントのダメージ！<br>リビングソードの攻撃！<br>233ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:52 UTC] デバッグ：start:
+[28-Oct-2019 11:36:52 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:52 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:52 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:52 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:52 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:52 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:52 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:52 UTC] POST通信
+[28-Oct-2019 11:36:52 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 2340
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 1226
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>506ポイントのダメージ！<br>リビングソードの攻撃！<br>213ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:52 UTC] デバッグ：start:
+[28-Oct-2019 11:36:52 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:52 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:52 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:52 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:52 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:52 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:52 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:52 UTC] POST通信
+[28-Oct-2019 11:36:52 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 2090
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => 679
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>547ポイントのダメージ！<br>リビングソードの攻撃！<br>250ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:52 UTC] デバッグ：start:
+[28-Oct-2019 11:36:52 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:52 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:52 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:52 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:52 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:52 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:52 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:52 UTC] POST通信
+[28-Oct-2019 11:36:52 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1804
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -62
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>741ポイントのダメージ！<br>リビングソードの攻撃！<br>286ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:52 UTC] デバッグ：start:
+[28-Oct-2019 11:36:52 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:52 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:52 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:52 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:52 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:52 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:52 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:53 UTC] POST通信
+[28-Oct-2019 11:36:53 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1559
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -659
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>597ポイントのダメージ！<br>リビングソードの攻撃！<br>245ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:53 UTC] デバッグ：start:
+[28-Oct-2019 11:36:53 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:53 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:53 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:53 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:53 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:53 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:53 UTC] POST通信
+[28-Oct-2019 11:36:53 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1326
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -1280
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>621ポイントのダメージ！<br>リビングソードの攻撃！<br>233ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:53 UTC] デバッグ：start:
+[28-Oct-2019 11:36:53 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:53 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:53 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:53 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:53 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:53 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:53 UTC] POST通信
+[28-Oct-2019 11:36:53 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 1042
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -1814
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>534ポイントのダメージ！<br>リビングソードの攻撃！<br>284ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:53 UTC] デバッグ：start:
+[28-Oct-2019 11:36:53 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:53 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:53 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:53 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:53 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:53 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:53 UTC] POST通信
+[28-Oct-2019 11:36:53 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 746
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -2543
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>729ポイントのダメージ！<br>リビングソードの攻撃！<br>296ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:53 UTC] デバッグ：start:
+[28-Oct-2019 11:36:53 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:53 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:53 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:53 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:53 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:53 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:54 UTC] POST通信
+[28-Oct-2019 11:36:54 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 493
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -3072
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>529ポイントのダメージ！<br>リビングソードの攻撃！<br>253ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:54 UTC] デバッグ：start:
+[28-Oct-2019 11:36:54 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:54 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:54 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:54 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:54 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:54 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:54 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:54 UTC] POST通信
+[28-Oct-2019 11:36:54 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 800
+            [attackVoice:protected] => ライトニング▷▷前だけ見てろ！背中は守る！
+            [damageVoice:protected] => ライトニング▷▷終わらない...まだ...！
+            [name:protected] => ライトニング
+            [hp:protected] => 276
+            [attackMin:protected] => 500
+            [attackMax:protected] => 800
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/ribingsode.png
+            [name:protected] => リビングソード
+            [hp:protected] => -3626
+            [attackMin:protected] => 200
+            [attackMax:protected] => 300
+        )
+
+    [history] => ライトニングの攻撃！<br>554ポイントのダメージ！<br>リビングソードの攻撃！<br>217ポイントのダメージ！<br>ライトニング▷▷終わらない...まだ...！<br>
+)
+
+[28-Oct-2019 11:36:54 UTC] デバッグ：start:
+[28-Oct-2019 11:36:54 UTC] デバッグ：attack:1
+[28-Oct-2019 11:36:54 UTC] デバッグ：magic:
+[28-Oct-2019 11:36:54 UTC] デバッグ：heal:
+[28-Oct-2019 11:36:54 UTC] デバッグ：restart:
+[28-Oct-2019 11:36:54 UTC] デバッグ：escape:
+[28-Oct-2019 11:36:54 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:36:54 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:36:54 UTC] PHP Notice:  Undefined index: monster in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 371
+[28-Oct-2019 11:36:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getHp() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:371
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 371
+[28-Oct-2019 11:37:53 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:37:53 UTC] POST通信
+[28-Oct-2019 11:37:53 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:37:53 UTC] デバッグ：start:
+[28-Oct-2019 11:37:53 UTC] デバッグ：attack:1
+[28-Oct-2019 11:37:53 UTC] デバッグ：magic:
+[28-Oct-2019 11:37:53 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:53 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:53 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:53 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:53 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:37:53 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:37:53 UTC] PHP Notice:  Undefined index: human in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:37:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getName() on null in /Applications/MAMP/htdocs/output/object_rpg/index.php:359
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 359
+[28-Oct-2019 11:37:54 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:37:54 UTC] デバッグ：start:
+[28-Oct-2019 11:37:54 UTC] デバッグ：attack:
+[28-Oct-2019 11:37:54 UTC] デバッグ：magic:
+[28-Oct-2019 11:37:54 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:54 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:54 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:54 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:54 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:37:54 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:37:55 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:37:55 UTC] デバッグ：start:
+[28-Oct-2019 11:37:55 UTC] デバッグ：attack:
+[28-Oct-2019 11:37:55 UTC] デバッグ：magic:
+[28-Oct-2019 11:37:55 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:55 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:55 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:55 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:55 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:37:55 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 350
+[28-Oct-2019 11:37:56 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 327
+[28-Oct-2019 11:37:56 UTC] POST通信
+[28-Oct-2019 11:37:56 UTC] デバッグ：sessionArray
+(
+)
+
+[28-Oct-2019 11:37:56 UTC] デバッグ：start:1
+[28-Oct-2019 11:37:56 UTC] デバッグ：attack:
+[28-Oct-2019 11:37:56 UTC] デバッグ：magic:
+[28-Oct-2019 11:37:56 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:56 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:56 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:56 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:56 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:37:57 UTC] POST通信
+[28-Oct-2019 11:37:57 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 600
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 3000
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [history] => ▷スコールが選択された！！<br>▷ダークナイトが現れた！<br>
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darknight.png
+            [name:protected] => ダークナイト
+            [hp:protected] => 2000
+            [attackMin:protected] => 100
+            [attackMax:protected] => 300
+        )
+
+)
+
+[28-Oct-2019 11:37:57 UTC] デバッグ：start:
+[28-Oct-2019 11:37:57 UTC] デバッグ：attack:
+[28-Oct-2019 11:37:57 UTC] デバッグ：magic:1
+[28-Oct-2019 11:37:57 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:57 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:57 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:57 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:57 UTC] デバッグ：gameclear:
+[28-Oct-2019 11:37:58 UTC] POST通信
+[28-Oct-2019 11:37:58 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 1
+    [human] => Human Object
+        (
+            [mp:protected] => 550
+            [attackVoice:protected] => スコール▷▷逃がすか!!
+            [damageVoice:protected] => スコール▷▷読みちがえたな...
+            [name:protected] => スコール
+            [hp:protected] => 3000
+            [attackMin:protected] => 600
+            [attackMax:protected] => 900
+        )
+
+    [monster] => Monster Object
+        (
+            [img:protected] => img/monsters/darkdemon.png
+            [name:protected] => デーモン
+            [hp:protected] => 2500
+            [attackMin:protected] => 200
+            [attackMax:protected] => 350
+        )
+
+    [history] => スコール▷▷逃がすか!!<br>スコールはMPを50ポイント使い魔法攻撃を行った!!<br>ダークナイトに3044ポイントのダメージを与えた！<br>ダークナイトを倒した！<br>▷デーモンが現れた！<br>
+)
+
+[28-Oct-2019 11:37:58 UTC] デバッグ：start:
+[28-Oct-2019 11:37:58 UTC] デバッグ：attack:
+[28-Oct-2019 11:37:58 UTC] デバッグ：magic:1
+[28-Oct-2019 11:37:58 UTC] デバッグ：heal:
+[28-Oct-2019 11:37:58 UTC] デバッグ：restart:
+[28-Oct-2019 11:37:58 UTC] デバッグ：escape:
+[28-Oct-2019 11:37:58 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 339
+[28-Oct-2019 11:37:58 UTC] デバッグ：gameclear:
