@@ -211,8 +211,8 @@ class StrongMonster extends Monster
             History::set($this->name.'がフレアを発動!!');
             $targetObj->setHp($targetObj->getHp() - $this->magicAttack);
             History::set($this->magicAttack.'ポイントのダメージを受けた！');
-        //1/6で2回攻撃
-        } elseif (!mt_rand(0, 5)) {
+        //1/4で2回攻撃
+        } elseif (!mt_rand(0, 3)) {
             History::set($this->name.'の２回攻撃!!');
             $targetObj->setHp($targetObj->getHp() - $this->attackMax);
             $targetObj->setHp($targetObj->getHp() - $this->attackMax);
@@ -252,10 +252,10 @@ class History implements HistoryInterface
 //インスタンス生成
 //============================
 //プレイヤー:$name, $hp, $mp, $attackVoice, $damageVoice_1, $damageVoice_2,$attackMin, $attackMax
-$humans[] = new Human('あなた', 3000, 600, '▷▷竜の爪牙に 全てを懸ける！', '▷▷ぐぁぁぁ…', '▷▷油断したか…', 600, 900);
+$humans[] = new Human('あなた', 3000, 600, '▷▷竜の爪牙に 全てを懸ける！', '▷▷ぐぁぁぁ…', '▷▷油断したか…', 400, 700);
 $humans[] = new Human('あなた', 3000, 1000, '▷▷世界の希望のために！！', '▷▷召喚士なのに 情けないな…', '▷▷みんな…ごめん…', 300, 500);
-$humans[] = new Human('あなた', 3000, 800, '▷▷その身に刻め…！', '▷▷終わらない…まだ…', '▷▷油断したか…', 500, 800);
-$humans[] = new Human('あなた', 3000, 800, '▷▷憂鬱な仕事だ！', '▷▷ここで 幕切れなのか…？', '▷▷真っ白だ…', 400, 900);
+$humans[] = new Human('あなた', 3000, 800, '▷▷その身に刻め…！', '▷▷終わらない…まだ…', '▷▷油断したか…', 300, 500);
+$humans[] = new Human('あなた', 3000, 800, '▷▷憂鬱な仕事だ！', '▷▷ここで 幕切れなのか…？', '▷▷真っ白だ…', 400, 800);
 //var_dump($humans);
 
 //モンスター:$name, $hp, $img, $attackMin, $attackMax(,$magicAttack)
@@ -268,7 +268,7 @@ $monsters[] = new Monster('サキュバス', 200, 'img/monsters/sakyubas.png', 1
 $monsters[] = new Monster('ジョーカー', 1500, 'img/monsters/joker.png', 100, 250);
 $monsters[] = new Monster('アサシン', 2000, 'img/monsters/asashin.png', 150, 300);
 $monsters[] = new StrongMonster('神龍', 5000, 'img/monsters/sinryu.png', 400, 500, 600);
-$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 500, 700, 600);
+$monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkmatar.png', 500, 600, 700);
 //var_dump($monsters);
 
 //============================
@@ -456,7 +456,7 @@ if (!empty($_POST)) {
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="./css/bootstrap.min.css" rel="stylesheet">
   <link href="./css/app.css" rel="stylesheet">
-  <title>Object_RPG_Game</title>
+  <title>Object_RPG_Quest</title>
 </head>
 
 <body>
@@ -465,7 +465,7 @@ if (!empty($_POST)) {
   <div class="container start-container">
     <div class="row">
       <div class="start-wrap__display col-12">
-        <p>オブジェクト指向クエスト</p>
+        <p>RPG風クエスト</p>
         <form method="post" class="start-wrap__display--action">
           <input type="submit" name="start" value="▷ゲームスタート">
         </form>
@@ -487,9 +487,10 @@ if (!empty($_POST)) {
   <!--戦闘画面-->
   <?php  } elseif (($startFlg)||(!empty($_SESSION))) { ?>
   <section class="battle-container">
+
     <div class="container monster-wrap">
       <div class="row monster-wrap__display">
-        <div class="col-10 monster-wrap__display--status">
+        <div class="col-3 monster-wrap__display--status">
           <p>
             <?php echo 'HP：'.$_SESSION['monster']->getHp(); ?></p>
         </div>
@@ -505,7 +506,7 @@ if (!empty($_POST)) {
           <div class="status-wrap__display--info">
             <p><?php echo $_SESSION['human']->getName().'のHP：'.$_SESSION['human']->getHp(); ?></p>
             <p><?php echo $_SESSION['human']->getName().'のMP：'.$_SESSION['human']->getMp(); ?></p>
-            <p>倒したモンスター数：<?php echo $_SESSION['clearCount']; ?></p>
+            <p>ゲームクリアまで残り：<?php echo 10 - $_SESSION['clearCount']; ?>体</p>
           </div>
         </div>
         <div class="status-wrap__display col-11 col-md-4 col-xl-3">
