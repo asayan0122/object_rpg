@@ -90,14 +90,15 @@ class Human extends Creature
     protected $mp;
     protected $attackVoice;
     protected $damageVoice;
-    public function __construct($name, $hp, $mp, $attackVoice, $damageVoice, $attackMin, $attackMax)
+    public function __construct($name, $hp, $mp, $attackVoice, $damageVoice_1, $damageVoice_2, $attackMin, $attackMax)
     {
         //パラメーター
         $this->name = $name;
         $this->hp = $hp;
         $this->mp = $mp;
         $this->attackVoice = $attackVoice;
-        $this->damageVoice = $damageVoice;
+        $this->damageVoice_1 = $damageVoice_1;
+        $this->damageVoice_2 = $damageVoice_2;
         $this->attackMin = $attackMin;
         $this->attackMax = $attackMax;
     }
@@ -115,10 +116,14 @@ class Human extends Creature
     {
         return $this->attackVoice;
     }
-    //ダメージ時の声
+    //ダメージ時の声(2パターン）
     public function damageVoice()
     {
-        return $this->damageVoice;
+        if (!mt_rand(0, 1)) {
+            return $this->damageVoice_1;
+        } else {
+            return $this->damageVoice_2;
+        }
     }
     //魔法攻撃（MP50消費）
     //プレイヤーの攻撃値を按分した確率×3-5倍の火力
@@ -147,7 +152,7 @@ class Human extends Creature
     }
 
     //回復魔法（MP50消費）:体力を全回復
-    public function toHeal($targetObj)
+    public function toHeal()
     {   //50MP以上ないと発動しない
         if ($_SESSION['human']->getMp() >= 50) {
             $this->setHp($this->hp = 3000);
@@ -156,9 +161,10 @@ class Human extends Creature
             History::set($this->getName().'は全回復した!');
         } else {
             //MPが不足する場合は、自動で通常攻撃に切り替える
-            History::set('MPが足りません!!');
+           
             $attackPoint = mt_rand($this->attackMin, $this->attackMax);
-            $targetObj->setHp($targetObj->getHp()-$attackPoint);
+            $_SESSION['monster']->setHp($_SESSION['monster']->getHp()-$attackPoint);
+            History::set('MPが足りません!!');
             History::set($this->attackVoice().$_SESSION['monster']->getName()."に".$attackPoint.'ポイントのダメージを与えた！');
         }
     }
@@ -245,10 +251,11 @@ class History implements HistoryInterface
 //============================
 //インスタンス生成
 //============================
-//プレイヤー:$name, $hp, $mp, $voice, $attackVoice, $damageVoice,$attackMin, $attackMax
-$humans[] = new Human('スコール', 3000, 600, 'スコール▷▷逃がすか!!', 'スコール▷▷読みちがえたな...', 600, 900);
-$humans[] = new Human('クラウド', 3000, 700, 'クラウド▷▷行くぜ！！', 'クラウド▷▷真っ白だ...', 400, 700);
-$humans[] = new Human('ライトニング', 3000, 800, 'ライトニング▷▷前だけ見てろ！背中は守る！', 'ライトニング▷▷チッ、油断した...！', 500, 800);
+//プレイヤー:$name, $hp, $mp, $attackVoice, $damageVoice_1, $damageVoice_2,$attackMin, $attackMax
+$humans[] = new Human('あなた', 3000, 600, '▷▷竜の爪牙に 全てを懸ける！', '▷▷ぐぁぁぁ…', '▷▷油断したか…', 600, 900);
+$humans[] = new Human('あなた', 3000, 1000, '▷▷世界の希望のために！！', '▷▷召喚士なのに 情けないな…', '▷▷みんな…ごめん…', 300, 500);
+$humans[] = new Human('あなた', 3000, 800, '▷▷その身に刻め…！', '▷▷終わらない…まだ…', '▷▷油断したか…', 500, 800);
+$humans[] = new Human('あなた', 3000, 800, '▷▷憂鬱な仕事だ！', '▷▷ここで 幕切れなのか…？', '▷▷真っ白だ…', 400, 900);
 //var_dump($humans);
 
 //モンスター:$name, $hp, $img, $attackMin, $attackMax(,$magicAttack)
@@ -271,9 +278,8 @@ $monsters[] = new StrongMonster('ダークマター', 5000, 'img/monsters/darkma
 function createHuman()
 {
     global $humans;
-    $human =  $humans[mt_rand(0, 2)];
+    $human =  $humans[mt_rand(0, 3)];
     $_SESSION['human'] = $human;
-    History::set('▷'.$_SESSION['human']->getName().'が選択された！！');
 }
 //モンスター生成
 function createMonster()
@@ -341,7 +347,6 @@ if (!empty($_POST)) {
 
     //ゲームをスタート==============================
     if ($startFlg) {
-        History::set('戦闘開始！');
         init();
     } else {
         //ここから戦闘画面に移る==============================
@@ -359,6 +364,7 @@ if (!empty($_POST)) {
                 //プレイヤー->モンスター
                 History::set($_SESSION['human']->getName().'の攻撃！');
                 $_SESSION['human']->attack($_SESSION['monster']);
+
 
                 //モンスター->プレイヤー
                 History::set($_SESSION['monster']->getName().'の攻撃！');
@@ -389,10 +395,12 @@ if (!empty($_POST)) {
                     //攻撃後、モンスターのHPが0以下なら、
                     if ($_SESSION['monster']->getHp() <= 0) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
+
                         createMonster();
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1;
                     } else {
                         //モンスターのHPが0以上であれば、プレイヤーに攻撃
+                        History::clear();
                         History::set($_SESSION['monster']->getName().'の攻撃！');
                         $_SESSION['monster']->attack($_SESSION['human']);
                         History::set($_SESSION['human']->damageVoice());
@@ -406,13 +414,13 @@ if (!empty($_POST)) {
                 //回復呪文を選択（MPを50消費する)==============================
             } elseif ($healFlg) {
                 $_SESSION['human']->toHeal($_SESSION['human']);
-
                 if ($_SESSION['human']->getHp() <= 0) {
                     $_SESSION = array();
                 } else {
                     // モンスターがshpが0以下になったら、別のモンスターを出現
                     if ($_SESSION['monster']->getHp() <= 0) {
                         History::set($_SESSION['monster']->getName().'を倒した！');
+
                         createMonster();
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1;
                     } else {
@@ -482,7 +490,8 @@ if (!empty($_POST)) {
     <div class="container monster-wrap">
       <div class="row monster-wrap__display">
         <div class="col-10 monster-wrap__display--status">
-          <p><?php echo $_SESSION['monster']->getName().'のHP：'; ?><?php echo $_SESSION['monster']->getHp(); ?></p>
+          <p>
+            <?php echo 'HP：'.$_SESSION['monster']->getHp(); ?></p>
         </div>
         <div class="col-10 monster-wrap__display--img">
           <img src="<?php echo $_SESSION['monster']->getImg(); ?>">
