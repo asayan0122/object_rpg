@@ -158,10 +158,9 @@ class Human extends Creature
             $this->setHp($this->hp = 3000);
             $this->setMp($this->getMp()-50);
             History::set($this->getName().'はMPを50ポイント使い回復魔法を唱えた!!');
-            History::set($this->getName().'は全回復した!');
+            History::set('全回復した!');
         } else {
             //MPが不足する場合は、自動で通常攻撃に切り替える
-           
             $attackPoint = mt_rand($this->attackMin, $this->attackMax);
             $_SESSION['monster']->setHp($_SESSION['monster']->getHp()-$attackPoint);
             History::set('MPが足りません!!');
@@ -215,9 +214,9 @@ class StrongMonster extends Monster
         } elseif (!mt_rand(0, 3)) {
             History::set($this->name.'の２回攻撃!!');
             $targetObj->setHp($targetObj->getHp() - $this->attackMax);
+            History::set($this->attackMax.'ポイントのダメージを受けた！');
             $targetObj->setHp($targetObj->getHp() - $this->attackMax);
-            $doubleAttack = ($this->attackMax*2);
-            History::set($doubleAttack.'ポイントのダメージを受けた！');
+            History::set($this->attackMax.'ポイントのダメージを受けた！');
         } else {
             parent::attack($targetObj);
         }
@@ -400,7 +399,6 @@ if (!empty($_POST)) {
                         $_SESSION['clearCount'] = $_SESSION['clearCount']+1;
                     } else {
                         //モンスターのHPが0以上であれば、プレイヤーに攻撃
-                        History::clear();
                         History::set($_SESSION['monster']->getName().'の攻撃！');
                         $_SESSION['monster']->attack($_SESSION['human']);
                         History::set($_SESSION['human']->damageVoice());
