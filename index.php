@@ -252,7 +252,7 @@ class History implements HistoryInterface
 //============================
 //プレイヤー:$name, $hp, $mp, $attackVoice, $damageVoice_1, $damageVoice_2,$attackMin, $attackMax
 $humans[] = new Human('あなた', 3000, 600, '▷▷竜の爪牙に 全てを懸ける！', '▷▷ぐぁぁぁ…', '▷▷油断したか…', 400, 700);
-$humans[] = new Human('あなた', 3000, 1000, '▷▷世界の希望のために！！', '▷▷召喚士なのに 情けないな…', '▷▷みんな…ごめん…', 300, 500);
+$humans[] = new Human('あなた', 3000, 1000,'▷▷世界の希望のために！！', '▷▷召喚士なのに 情けないな…', '▷▷みんな…ごめん…', 300, 500);
 $humans[] = new Human('あなた', 3000, 800, '▷▷その身に刻め…！', '▷▷終わらない…まだ…', '▷▷油断したか…', 300, 500);
 $humans[] = new Human('あなた', 3000, 800, '▷▷憂鬱な仕事だ！', '▷▷ここで 幕切れなのか…？', '▷▷真っ白だ…', 400, 800);
 //var_dump($humans);
@@ -316,7 +316,7 @@ function escapeChance()
 //1:POST送信されていた場合==============================
 if (!empty($_POST)) {
     //POSTした各種フラグを定義==============================
-    //を選択した時の動作
+    //スタートを選択した時の動作
     $startFlg = (!empty($_POST['start'])) ? true : false;
     //通常攻撃を選択した時の動作
     $attackFlg = (!empty($_POST['attack'])) ? true : false;
