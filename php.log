@@ -33101,3 +33101,119 @@ Stack trace:
 [31-Oct-2019 04:35:33 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
 [31-Oct-2019 04:35:33 UTC] デバッグ：gameclear:
 [31-Oct-2019 04:35:33 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 354
+[21-Nov-2019 04:19:57 UTC] デバッグ：sessionArray
+(
+)
+
+[21-Nov-2019 04:19:57 UTC] デバッグ：start:
+[21-Nov-2019 04:19:57 UTC] デバッグ：attack:
+[21-Nov-2019 04:19:57 UTC] デバッグ：magic:
+[21-Nov-2019 04:19:57 UTC] デバッグ：heal:
+[21-Nov-2019 04:19:57 UTC] デバッグ：restart:
+[21-Nov-2019 04:19:57 UTC] デバッグ：escape:
+[21-Nov-2019 04:19:57 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
+[21-Nov-2019 04:19:57 UTC] デバッグ：gameclear:
+[21-Nov-2019 04:19:57 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 354
+[03-Dec-2019 01:54:37 UTC] デバッグ：sessionArray
+(
+)
+
+[03-Dec-2019 01:54:37 UTC] デバッグ：start:
+[03-Dec-2019 01:54:37 UTC] デバッグ：attack:
+[03-Dec-2019 01:54:37 UTC] デバッグ：magic:
+[03-Dec-2019 01:54:37 UTC] デバッグ：heal:
+[03-Dec-2019 01:54:37 UTC] デバッグ：restart:
+[03-Dec-2019 01:54:37 UTC] デバッグ：escape:
+[03-Dec-2019 01:54:37 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
+[03-Dec-2019 01:54:37 UTC] デバッグ：gameclear:
+[03-Dec-2019 01:54:37 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 354
+[03-Dec-2019 01:54:40 UTC] PHP Notice:  Undefined index: clearCount in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 332
+[03-Dec-2019 01:54:40 UTC] POST通信
+[03-Dec-2019 01:54:40 UTC] デバッグ：sessionArray
+(
+)
+
+[03-Dec-2019 01:54:40 UTC] デバッグ：start:1
+[03-Dec-2019 01:54:40 UTC] デバッグ：attack:
+[03-Dec-2019 01:54:40 UTC] デバッグ：magic:
+[03-Dec-2019 01:54:40 UTC] デバッグ：heal:
+[03-Dec-2019 01:54:40 UTC] デバッグ：restart:
+[03-Dec-2019 01:54:40 UTC] デバッグ：escape:
+[03-Dec-2019 01:54:40 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
+[03-Dec-2019 01:54:40 UTC] デバッグ：gameclear:
+[03-Dec-2019 01:54:43 UTC] POST通信
+[03-Dec-2019 01:54:43 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 1000
+            [attackVoice:protected] => ▷▷世界の希望のために！！
+            [damageVoice:protected] => 
+            [name:protected] => あなた
+            [hp:protected] => 3000
+            [attackMin:protected] => 300
+            [attackMax:protected] => 500
+            [damageVoice_1] => ▷▷召喚士なのに 情けないな…
+            [damageVoice_2] => ▷▷みんな…ごめん…
+        )
+
+    [history] => ▷神龍が現れた！<br>
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 600
+            [img:protected] => img/monsters/sinryu.png
+            [name:protected] => 神龍
+            [hp:protected] => 5000
+            [attackMin:protected] => 400
+            [attackMax:protected] => 500
+        )
+
+)
+
+[03-Dec-2019 01:54:43 UTC] デバッグ：start:
+[03-Dec-2019 01:54:43 UTC] デバッグ：attack:1
+[03-Dec-2019 01:54:43 UTC] デバッグ：magic:
+[03-Dec-2019 01:54:43 UTC] デバッグ：heal:
+[03-Dec-2019 01:54:43 UTC] デバッグ：restart:
+[03-Dec-2019 01:54:43 UTC] デバッグ：escape:
+[03-Dec-2019 01:54:43 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
+[03-Dec-2019 01:54:43 UTC] デバッグ：gameclear:
+[03-Dec-2019 01:54:44 UTC] POST通信
+[03-Dec-2019 01:54:44 UTC] デバッグ：sessionArray
+(
+    [clearCount] => 0
+    [human] => Human Object
+        (
+            [mp:protected] => 1000
+            [attackVoice:protected] => ▷▷世界の希望のために！！
+            [damageVoice:protected] => 
+            [name:protected] => あなた
+            [hp:protected] => 1599
+            [attackMin:protected] => 300
+            [attackMax:protected] => 500
+            [damageVoice_1] => ▷▷召喚士なのに 情けないな…
+            [damageVoice_2] => ▷▷みんな…ごめん…
+        )
+
+    [monster] => StrongMonster Object
+        (
+            [magicAttack:StrongMonster:private] => 600
+            [img:protected] => img/monsters/sinryu.png
+            [name:protected] => 神龍
+            [hp:protected] => 4678
+            [attackMin:protected] => 400
+            [attackMax:protected] => 500
+        )
+
+    [history] => あなたの攻撃！<br>322ポイントのダメージ！<br>神龍の攻撃！<br>神龍は会心の一撃!!<br>1401ポイントのダメージ！<br>▷▷みんな…ごめん…<br>
+)
+
+[03-Dec-2019 01:54:44 UTC] デバッグ：start:
+[03-Dec-2019 01:54:44 UTC] デバッグ：attack:
+[03-Dec-2019 01:54:44 UTC] デバッグ：magic:1
+[03-Dec-2019 01:54:44 UTC] デバッグ：heal:
+[03-Dec-2019 01:54:44 UTC] デバッグ：restart:
+[03-Dec-2019 01:54:44 UTC] デバッグ：escape:
+[03-Dec-2019 01:54:44 UTC] PHP Notice:  Undefined variable: gameclearFlg in /Applications/MAMP/htdocs/output/object_rpg/index.php on line 344
+[03-Dec-2019 01:54:44 UTC] デバッグ：gameclear:
